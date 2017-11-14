@@ -2,10 +2,7 @@
 class Hash
   def keys_of(*arguments)
     items = []
-    arguments.each do |item|
-      for item in arguments
-
-      end
+    for item in arguments
       each do |key, value|
         if item == value
           items << key
