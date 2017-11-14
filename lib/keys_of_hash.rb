@@ -4,7 +4,7 @@ class Hash
     items = []
     arguments.each do |i|
       i.each do |k, v|
-        if arguments == v
+        if i == v
           items << k
         end
       end
